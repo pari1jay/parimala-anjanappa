@@ -7,7 +7,7 @@
 ---
 
 ## About Me
-I'm an **IT professional** with experience in Data engineering, Data analytics, Forecating, system integration, and cloud-based solutions. I have a **Master of Science degree in Applied Data Science** from **Indiana University**, and I am passionate about data analytics, AI and machine learning. 
+My 'why' is rooted in a deep passion for this field and a genuine curiosity to solve real-world problems through data and technology. I've taken both small and significant steps whether it's upskilling, working on real projects, or shifting roles to align my career with what excites me. I’m grateful for the opportunity to pursue work that challenges me intellectually and fulfills me personally, and I want to continue growing so I can make meaningful contributions, not just in my work but also in the lives impacted by it.
 I'm actively seeking opportunities to work on impactful projects as a **Data Analyst**, **Data Engineer**, **AI/ ML roles**.  
 
 ---
