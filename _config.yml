@@ -1,5 +1,36 @@
+# Site settings
 title: Parimala Anjanappa
-logo: /assets/img.jpg
-#description: text below image
-show_downloads: true
-theme: jekyll-theme-minimal
+description: Data Scientist | ML Engineer | AI Enthusiast
+author: Parimala Anjanappa
+email: parimala.js27@gmail.com
+
+# Social links
+github_username: pari1jay
+linkedin_username: parimala-anjanappa
+
+# GitHub Pages settings
+repository: pari1jay/parimala-anjanappa
+url: https://pari1jay.github.io
+baseurl: /parimala-anjanappa
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude files from processing
+exclude:
+  - node_modules
+  - vendor
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache
+  - gemfiles
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - README.md
