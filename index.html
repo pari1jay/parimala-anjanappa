@@ -20,48 +20,9 @@
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
             line-height: 1.6;
             color: #333;
-            background: #0a0a0a;
+            background: #29133b;
             min-height: 100vh;
             overflow-x: hidden;
-        }
-
-        /* Animated Background */
-        .animated-background {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            background: linear-gradient(45deg, #0a0a0a, #1a1a2e, #16213e);
-        }
-
-        .stars {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            background: transparent;
-        }
-
-        .star {
-            position: absolute;
-            background: white;
-            border-radius: 50%;
-            animation: twinkle 4s ease-in-out infinite alternate;
-        }
-
-        .star:nth-child(1) { top: 20%; left: 20%; width: 2px; height: 2px; animation-delay: 0s; }
-        .star:nth-child(2) { top: 60%; left: 30%; width: 1px; height: 1px; animation-delay: 1s; }
-        .star:nth-child(3) { top: 10%; left: 50%; width: 3px; height: 3px; animation-delay: 2s; }
-        .star:nth-child(4) { top: 80%; left: 80%; width: 2px; height: 2px; animation-delay: 3s; }
-        .star:nth-child(5) { top: 30%; left: 70%; width: 1px; height: 1px; animation-delay: 1.5s; }
-        .star:nth-child(6) { top: 70%; left: 10%; width: 2px; height: 2px; animation-delay: 0.5s; }
-        .star:nth-child(7) { top: 40%; left: 90%; width: 1px; height: 1px; animation-delay: 2.5s; }
-        .star:nth-child(8) { top: 15%; left: 85%; width: 2px; height: 2px; animation-delay: 1.8s; }
-
-        @keyframes twinkle {
-            0% { opacity: 0.3; transform: scale(1); }
-            100% { opacity: 1; transform: scale(1.2); }
         }
 
         /* Floating particles */
@@ -475,8 +436,8 @@
         }
 
         .skill-tag {
-            background: rgba(102, 126, 234, 0.2);
-            color: #667eea;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
             padding: 8px 16px;
             border-radius: 25px;
             font-size: 0.9em;
@@ -756,12 +717,12 @@
                     <img src="assets/img.jpg" alt="Parimala Anjanappa Profile Picture">
                 </div>
                 <h1>Parimala Anjanappa</h1>
-                <p class="tagline">Data Scientist • ML Engineer • AI Enthusiast</p>
+                <p class="tagline">Data Science • AI/ML Engineer • Data Analysis • Software Engineering</p>
                 <p class="bio">
-                    Passionate about transforming data into actionable insights and building intelligent systems that solve real-world problems. Currently seeking opportunities to make meaningful contributions in Data Science and AI.
+                    Passionate about transforming data into actionable insights and building models that solve real-world problems. Currently seeking opportunities to make meaningful contributions in Data Science and AI.
                 </p>
                 <div class="social-links">
-                    <a href="mailto:parimala.js27@gmail.com">
+                    <a href="mailto:anjanappaparimala@gmail.com">
                         <i class="fas fa-envelope"></i> Email
                     </a>
                     <a href="https://www.linkedin.com/in/parimala-anja" target="_blank">
@@ -773,19 +734,22 @@
                     <a href="https://medium.com/@parimala.anja" target="_blank">
                         <i class="fab fa-medium"></i> Medium
                     </a>
+                    <a href="https://www.instagram.com/la_vie_archive/" target="_blank">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
                 </div>
             </div>
         </header>
 
         <!-- About Me Section -->
         <div class="card">
-            <h2><i class="fas fa-heart"></i> My Mission</h2>
+            <h2><i class="fas fa-heart"></i> About Me</h2>
             <div class="about-content">
                 <p>
-                    My 'why' is rooted in a deep passion for this field and genuine curiosity to solve real-world problems through data and technology. I've taken both small and significant steps—whether upskilling, working on impactful projects, or shifting roles—to align my career with what excites me. I'm grateful for the opportunity to pursue work that challenges me intellectually and fulfills me personally.
+                    My 'why' is rooted in a deep passion for this field and genuine curiosity to solve real-world problems through data and technology. I have masters in Applied data science from Indiana University and ~6 years experience working in IT on ML/ AI/ Data projetcs. I'm grateful for the opportunity to pursue work that challenges me intellectually and fulfills me personally.
                 </p>
                 <p style="margin-top: 15px;">
-                    I want to continue growing so I can make meaningful contributions, not just in my work but in the lives impacted by it. I'm actively seeking opportunities to work on impactful projects as a <strong>Data Analyst</strong>, <strong>Data Engineer</strong>, or in <strong>AI/ML roles</strong>.
+                    I'm actively seeking opportunities to work on impactful projects as a <strong>Data Analyst</strong>, <strong>Data Engineer</strong>, or in <strong>AI/ML roles</strong>.
                 </p>
             </div>
         </div>
@@ -851,23 +815,6 @@
         <div class="card section" id="projects">
             <h2><i class="fas fa-rocket"></i> Featured Projects</h2>
             <div class="projects-grid">
-                <div class="project-card">
-                    <h3>
-                        <a href="https://github.com/pari1jay/2_Drug-Efficacy-Prediction-Model" target="_blank" rel="noopener noreferrer">
-                        🧬 Drug Efficacy Prediction Model
-                        </a>
-                    </h3>
-                    <div class="project-tools">
-                        <span class="tool-tag">Python</span>
-                        <span class="tool-tag">Random Forest</span>
-                        <span class="tool-tag">XGBoost</span>
-                        <span class="tool-tag">Scikit-learn</span>
-                    </div>
-                    <p class="project-description">
-                        Built ML models to predict HIV drug efficacy, helping researchers prioritize 40,000+ chemical compounds for testing. Implemented ensemble methods to achieve high accuracy in compound screening.
-                    </p>
-                </div>
-
                 <div class="project-card">
                     <h3>
                         <a href="https://github.com/pari1jay/5_Spotify-classification-R" target="_blank" rel="noopener noreferrer">
@@ -963,37 +910,24 @@
                     <h3>Data Assistant</h3>
                     <div class="company">Indiana University Indianapolis</div>
                     <div class="duration">April 2023 – June 2025</div>
-                    <p class="description">
-                        ML model to perform OCR | SQL and DBMS tools| Implemented ETL processes | Worked with Delta lakehouse architecture-Azure | Metadata, digital cataloging, ensuring data integrity and accessibility | Collaborationa and representation
-                    </p>
                 </div>
 
                 <div class="timeline-item">
                     <h3>Research Assistant</h3>
                     <div class="company">Indiana University Indianapolis</div>
                     <div class="duration">Aug 2023 – May 2024</div>
-                    <p class="description">
-                        Research Assistant to Prof. Fawzi Ben Massoud | AI chatbot, RAG model: OpenAI GPT-4, LangChain, Canvas APIs, Python, RAG pipelines.
-                    </p>
                 </div>
 
                 <div class="timeline-item">
                     <h3>AI/ML Data Engineer</h3>
                     <div class="company">Asian paints-Netcube Technologies, Bangalore</div>
                     <div class="duration">January 2019 – February 2022</div>
-                    <p class="description">
-                        ML models for process optimization | end-to-end data pipelines using Azure and Apache Airflow| Built RESTful APIs with Flask and implemented CI/CD pipelines.<br>
-                        Created interactive dashboards using Tableau and Power BI for business intelligence.
-                    </p>
                 </div>
 
                 <div class="timeline-item">
-                    <h3>Associate Software Engineer</h3>
+                    <h3>Software Engineer</h3>
                     <div class="company">Tech Mahindra, Bangalore</div>
                     <div class="duration">August 2016 – October 2018</div>
-                    <p class="description">
-                        Developed automation testing scripts using Python and Selenium. Managed Oracle databases and worked with HP ALM for test management. Built data warehouse solutions and automated testing frameworks.
-                    </p>
                 </div>
             </div>
         </div>
@@ -1008,14 +942,13 @@
                     <div class="duration">January 2023 – May 2024 • Dean's Scholarship Recipient</div>
                     <p class="description">
                         Dean's Scholarship Recipient<br>
-                        Coursework: Data Analytics using Python and R, Data Visualization, Deep Learning, Cloud Computing, DBMS, Statistics (SAS, R)
+                        Coursework: Data Analytics using Python and R, Data Visualization(Tableau, Power BI), Machine Learning-Deep Learning, Cloud Computing, DBMS, Statistics (SAS, R)
                     </p>
                 </div>
 
                 <div class="timeline-item">
                     <h3>Bachelor of Engineering - Mechanical & Aeronautics</h3>
                     <div class="company">Mangalore Institute of Technology, VTU India</div>
-                    <div class="duration">2012 – 2016</div>
                 </div>
 
         <!-- Recent Certifications -->
@@ -1034,10 +967,10 @@
                             <span class="skill-tag">Power BI for Data Analysts</span>
                         </a>
                         <a href="https://www.credly.com/users/parimala-anjanappa/badges#credly" target="_blank" rel="noopener noreferrer">
-                            <span class="skill-tag">AWS Cloud</span>
+                            <span class="skill-tag">AWS Certifications</span>
                         </a>
                         <a href="https://learn.microsoft.com/en-us/users/anjanappaparimala-5848/transcript/76w20b1103o8y21?tab=tab-learning-paths" target="_blank" rel="noopener noreferrer">
-                            <span class="skill-tag">Microsoft azure</span>
+                            <span class="skill-tag">Microsoft azure certifications</span>
                         </a>
                         <a href="https://www.hackerrank.com/profile/parimala_js27" target="_blank" rel="noopener noreferrer">
                             <span class="skill-tag">Hackerrank for R and SQL</span>
