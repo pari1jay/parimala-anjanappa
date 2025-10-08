@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parimala Anjanappa - Data Scientist & AI/ ML Engineer</title>
+    <title>Parimala Anjanappa - AI/ ML Engineer</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         * {
@@ -20,8 +20,8 @@
         body {
             font-family: 'Poppins', sans-serif;
             line-height: 1.6;
-            color: #333;
-            background: #29133b;
+            color: #0b3d91; /* darker blue-readability */
+            background: linear-gradient(135deg, #a8dadc, #f0f8ff); /* soft ocean-my theme*/
             min-height: 100vh;
             overflow-x: hidden;
         }
@@ -92,7 +92,7 @@
             padding: 8px;
             margin-bottom: 30px;
             border: 1px solid rgba(255, 255, 255, 0.2);
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
             position: sticky;
             top: 20px;
             z-index: 1000;
@@ -101,7 +101,7 @@
         .nav-tab {
             padding: 10px 18px;
             /*background: transparent;*/
-            color: rgba(255, 255, 255, 0.85);
+            color: rgba(11, 61, 145, 0.85);/*oceanic blue-checking*/
             text-decoration: none;
             border-radius: 8px;
             transition: all 0.3s ease;
@@ -129,18 +129,18 @@
 
         .nav-tab:hover {
             color: #fff;
-            background: linear-gradient(90deg, #667eea, #764ba2);
-            box-shadow: 0 4px 12px rgba(118, 75, 162, 0.3);
+            background: linear-gradient(90deg, #48cae4, #00b4d8); /*oceblu */
+            box-shadow: 0 4px 12px rgba(0, 180, 216, 0.3);
             transform: translateY(-2px);
         }
 
         .nav-tab.active {
-            background: linear-gradient(90deg, #667eea, #40e0d0);
+            background: linear-gradient(90deg, #00b4d8, #90e0ef);
             color: #fff;
             font-weight: 600;
             letter-spacing: 0.5px;
             transform: translateY(-2px);
-            box-shadow: 0 6px 16px rgba(64, 224, 208, 0.4);
+            box-shadow: 0 6px 16px rgba(144, 224, 239, 0.4);
         }
 
         .nav-tab,
@@ -188,7 +188,7 @@
             height: 180px;
             border-radius: 50%;
             margin: 0 auto 30px;
-            background: linear-gradient(45deg, #667eea, #764ba2);
+            background: linear-gradient(45deg, #48d1cc, #81d4fa);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -232,7 +232,7 @@
         h1 {
             font-size: 3.5em;
             margin-bottom: 15px;
-            background: linear-gradient(135deg, #667eea, #764ba2, #40e0d0);
+            background: linear-gradient(135deg, #48d1cc, #4fc3f7, #81d4fa);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -309,14 +309,14 @@
 
         /* Cards */
         .card {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(20px);
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(15px);
             border-radius: 25px;
             padding: 40px;
             margin-bottom: 30px;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
             transition: all 0.4s ease;
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.15);
             position: relative;
             overflow: hidden;
         }
@@ -328,7 +328,7 @@
             left: 0;
             right: 0;
             height: 2px;
-            background: linear-gradient(90deg, #667eea, #764ba2, #40e0d0);
+            background: linear-gradient(90deg, #7fdfff, #4fc3f7);
             animation: shimmer 3s ease-in-out infinite;
         }
 
@@ -339,7 +339,7 @@
 
         .card:hover {
             transform: translateY(-10px);
-            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
+            box-shadow: 0 30px 60px rgba(79, 195, 247, 0.4);
         }
 
         .card h2 {
@@ -397,12 +397,12 @@
             left: 0;
             width: 4px;
             height: 100%;
-            background: linear-gradient(180deg, #667eea, #764ba2);
+            background: linear-gradient(180deg, #667eea, #764ba2); /*not changed*/
         }
 
         .skill-category:hover {
             transform: translateY(-5px);
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.1);/*not changed*/
         }
 
         .skill-category h3 {
@@ -418,7 +418,7 @@
         }
 
         .skill-tag {
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background: linear-gradient(135deg, #48d1cc, #81d4fa);
             color: white;
             padding: 8px 16px;
             border-radius: 25px;
@@ -429,7 +429,7 @@
         }
 
         .skill-tag:hover {
-            background: rgba(102, 126, 234, 0.8);
+            background: rgba(79, 195, 247, 0.7);
             color: white;
             transform: translateY(-2px);
         }
@@ -460,7 +460,7 @@
             left: 0;
             right: 0;
             height: 4px;
-            background: linear-gradient(90deg, #667eea, #764ba2);
+            background: linear-gradient(90deg, #48d1cc, #4fc3f7);
         }
 
         .project-card:hover {
@@ -522,7 +522,7 @@
             top: 0;
             bottom: 0;
             width: 3px;
-            background: linear-gradient(180deg, #667eea, #764ba2);
+            background: linear-gradient(180deg, #48d1cc, #4fc3f7);
             box-shadow: 0 0 10px rgba(102, 126, 234, 0.5);
         }
 
@@ -544,7 +544,7 @@
             top: 30px;
             width: 14px;
             height: 14px;
-            background: #667eea;
+            background: #48d1cc;
             border-radius: 50%;
             border: 4px solid rgba(255, 255, 255, 0.1);
             box-shadow: 0 0 15px rgba(102, 126, 234, 0.6);
@@ -677,9 +677,7 @@
             <div class="particle"></div>
             <div class="particle"></div>
         </div>
-        <div class="orb orb1"></div>
-        <div class="orb orb2"></div>
-        <div class="orb orb3"></div>
+        /* removed orbs*/
     </div>
 
     <div class="container">
@@ -699,7 +697,7 @@
                     <img src="assets/img.jpg" alt="Parimala Anjanappa Profile Picture">
                 </div>
                 <h1>Parimala Anjanappa</h1>
-                <p class="tagline">Data Science • AI/ML Engineer • Data Analysis • Software Engineering</p>
+                <p class="tagline">Data Science • AI/ML • Data Engineering • Data Analysis • Software Engineering</p>
                 <p class="bio">
                     Passionate about transforming data into actionable insights and building models that solve real-world problems. Currently seeking opportunities to make meaningful contributions in Data Science and AI.
                 </p>
@@ -913,7 +911,7 @@
             <h2><i class="fas fa-briefcase"></i> Professional Experience</h2>
             <div class="timeline">
                 <div class="timeline-item">
-                    <h3>Data Assistant</h3>
+                    <h3>Data Scientist</h3>
                     <div class="company">Indiana University Indianapolis</div>
                     <div class="duration">April 2023 – June 2025</div>
                 </div>
@@ -1023,8 +1021,8 @@
 
 </body>
 </html>   
-</body>
-</html>
+
+
 
 
 
