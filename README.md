@@ -2,43 +2,6 @@
 
 
 ### Data Analyst | Data Engineer | Data Science | ML | AI
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="parimala-anja" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/parimala-anja?trk=profile-badge">Parimala Anjanappa</a></div>
-                          
----
-
-## About Me
-My 'why' is rooted in a deep passion for this field and a genuine curiosity to solve real-world problems through data and technology. I've taken both small and significant steps whether it's upskilling, working on real projects, or shifting roles to align my career with what excites me. I’m grateful for the opportunity to pursue work that challenges me intellectually and fulfills me personally, and I want to continue growing so I can make meaningful contributions, not just in my work but also in the lives impacted by it.
-I'm actively seeking opportunities to work on impactful projects as a **Data Analyst**, **Data Engineer**, **AI/ ML roles**.  
-
----
-
-## Technical Skills 💻
-
-### Data Analysis & Engineering
-- **Languages**: SQL, Python, R, Java, C, SAS, MATLAB, HTML, CSS
-- **Databases**: SQL, NoSQL, IBM DB, Oracle DB, MS access, Redis, Dynamo DB, Mongo DB, Spark  
-- **Data Visualization**: Tableau, Power BI, Plotly, Excel, Qlik 
-
-### Project Management & Collaboration
-- **Tools**:Jira, Confluence, VS Code, Postman, Linux (Basics), IBM Maximo, SAP Cloud ERP, GitHub Actions
-- **Methodologies**: Agile, Scrum, Waterfall  
-
-### Certifications
-- [Career Essentials in Data Analysis by Microsoft](https://www.linkedin.com/learning/certificates/9efd045792a5fd5167c97e00face6adb3eecdd0478ef787cff9bc68e7e131f44?trk=share_certificate)  
-- Microsoft Azure Data Fundamentals
-- [Coursera IBM ETL and Data Pipelines with Shell, Airflow and Kafka](https://www.coursera.org/account/accomplishments/verify/FQC37YVWZ94R)
-- [Atlassian Agile Project Management Professional](https://www.linkedin.com/learning/certificates/1fefaab35c77ceed7782757a9693a7fd55cc9186bffda160fbcb3ec6bbc0d4ba?)
-- [Power BI for Data Analysts by Microsoft Press](https://www.linkedin.com/learning/certificates/eb732ae4fde43c60a0ac2133602fcb04dd622da8a0bad2f77dfcf9fc805f2ff0?trk=share_certificate)
-- CSCMP Supply Chain Foundations: Inventory Management Professional Certificate
-- The Data Science of Healthcare Medicine and Public Health
-- Access Essential Training Office 365Microsoft
-- Data Analytics with Microsoft Fabric
-- [AWS cloud 101 from AWS](https://www.credly.com/badges/207d1a4c-50f5-4eab-88fd-91d440364d9f/public_url)
-- [HackerRank SQL, R](https://www.hackerrank.com/profile/parimala_js27) 
-- Azure AI services _ Microsoft Learn
-- [Azure Spark Databricks Essential Training](https://www.linkedin.com/learning/certificates/8969302ae81941f2e5348374b207717928ccc2dae97f2a5fbb3ac88a3f1419f0?trk=share_certificate)
-
----
 
 ## Projects 🚀
 
@@ -76,17 +39,6 @@ Objective2 : what can these audio features tell us about the distinctions betwee
 ### 8. [Midwest Demographic & Socioeconomic Analysis](https://github.com/pari1jay/3_Midwest-dataset-project-using-R)
 - **Tools**:  R, Data Visualization, R shiny, Statistics
 - **Description**: Explored county-level Midwest U.S. census data to identify patterns in income, education, and population distribution. Presented findings through statistical summaries and visualizations to uncover regional disparities.
-
-
----
-
-## Experience 💼
-### Data Assistant | Indiana University | Indianapolis | Apr 2023 – Jun 2025  
- - Tools: SQL, DBMS,  DLSG softwares, Freeflow, Metadata, Batch Processing, ETL, Data warehouses, Delta lakehouse, Schema design.
-### Data Engineer/Data Analyst | Netcube Technologies | Bangalore, India | Jan 2019 – Feb 2022  
- - Tools: SQL, Azure,  Apache Airflow, GitHub, Restful APIs, Flask, ETL/ELT, CI/CD pipelines, SQL, NoSQL, Data warehouses, Delta lakehouse, SAP ERP, Tableau, Power BI.
-### Associate Software Engineer | Tech Mahindra | Bangalore, India | Aug 2016 – Oct 2018  
- - Tools: Oracle DB, HP ALM, Python, Automation testing scripts, Data warehouses, Litmus Magix, Selenium.
 
 ---
 
